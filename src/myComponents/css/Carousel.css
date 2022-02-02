@@ -1,0 +1,57 @@
+/* clients section starts */
+.slick-prev::before,
+.slick-next::before {
+  font-size: 25px !important;
+  opacity: 1 !important;
+}
+
+.slick-prev.slick-disabled::before,
+.slick-next.slick-disabled::before {
+  opacity: 1 !important;
+}
+
+/* mobile view */
+@media (max-width: 520px) {
+  #companies .slick-slider .slick-prev {
+    left: -12px;
+  }
+  #companies .slick-slider .slick-next {
+    right: -10px;
+  }
+  #companies .slick-slider .slick-list {
+    margin: 0rem 1.5rem !important;
+  }
+}
+/* clients section ends */
+
+/* features section starts */
+#features .slick-dots li button::before {
+  font-size: 15px !important;
+  top: 15px !important;
+}
+
+#features .slick-prev::before,
+#features .slick-next::before {
+  color: black !important;
+}
+
+#features .slick-prev::before {
+  content: url("../images/previous.svg") !important;
+}
+#features .slick-next::before {
+  content: url("../images/next.svg") !important;
+}
+
+/* mobile view */
+@media (max-width: 520px) {
+  #features .slick-list {
+    margin: 0rem 0rem !important;
+  }
+  #features .slick-prev {
+    left: -10px !important;
+  }
+  #features .slick-next {
+    right: -10px !important;
+  }
+}
+/* features section starts */

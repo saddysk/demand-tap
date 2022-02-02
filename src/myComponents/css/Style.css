@@ -1,0 +1,48 @@
+#hero {
+  height: 300px;
+  background: rgb(202, 190, 190);
+}
+
+.serviceImages {
+  width: 165px;
+  height: 165px;
+  background: rgb(202, 190, 190);
+}
+
+.card {
+  width: 31% !important;
+  font-size: 14px;
+}
+.fa-quote-left {
+  color: rgb(202, 190, 190);
+}
+.card img {
+  width: 110px;
+  height: 110px;
+  position: relative;
+  top: -75px;
+  margin-bottom: -80px;
+}
+
+#cta p {
+  width: 55%;
+}
+#cta .btn {
+  width: 30%;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+/* mobile view */
+@media (max-width: 520px) {
+  .card {
+    width: 100% !important;
+  }
+
+  #cta p {
+    width: 100% !important;
+  }
+  #cta .btn {
+    width: 100% !important;
+  }
+}

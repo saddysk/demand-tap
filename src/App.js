@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./myComponents/Header";
+import MainBody from "./myComponents/MainBody";
+import Footer from "./myComponents/Footer";
 
 function App() {
+  const companyName = "DEMAND TAP";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header heading={companyName} />
+      <MainBody />
+      <Footer heading={companyName} />
+    </>
   );
 }
 
